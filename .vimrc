@@ -40,6 +40,19 @@ imap kj <Esc>
 " Fix backspace
 set backspace=indent,eol,start
 
+" Info about linenumber.
 set ruler
+
+" Default shell. (to use ls an rm in windows)
 set shell=powershell
+
+" Handy menu when using tab for autocompleting commands in command mode.
 set wildmenu
+
+" Indentation
+set autoindent
+set smartindent
+set cindent
+
+" Map { to typ both { }, align them en enter input mode inside.
+" :inoremap { <esc>o{<cr>}<esc>O
