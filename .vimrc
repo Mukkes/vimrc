@@ -34,8 +34,8 @@ set shiftwidth=4
 set nowrap
 
 " Map jk kj to Esc (only in insert mode)
-imap jk <Esc>
-imap kj <Esc>
+inoremap jk <Esc>
+inoremap kj <Esc>
 
 " Fix backspace
 set backspace=indent,eol,start
