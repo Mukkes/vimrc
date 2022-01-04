@@ -56,3 +56,6 @@ set cindent
 
 " Map { to typ both { }, align them en enter input mode inside.
 " :inoremap { <esc>o{<cr>}<esc>O
+
+set langmenu=en_US
+let $LANG = 'en_US'
