@@ -1,6 +1,22 @@
 # Ignore everything
-*
+/*
 
 # But not these files...
 !.gitignore
 !.vimrc
+
+!.vim/
+.vim/*
+
+!.vim/autoload/
+.vim/autoload/*
+!.vim/autoload/gruvbox_material.vim
+
+!.vim/colors/
+.vim/colors/*
+!.vim/colors/gruvbox-material.vim
+
+!.vim/doc/
+.vim/doc/*
+!.vim/doc/gruvbox-material.txt
+

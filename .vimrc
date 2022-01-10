@@ -54,8 +54,23 @@ set autoindent
 set smartindent
 set cindent
 
+" Set default language
+set langmenu=en_US
+let $LANG = 'en_US'
+
+" Set colorscheme
+if has('termguicolors')
+    set termguicolors
+endif
+set background=dark
+let g:gruvbox_material_background = 'hard'
+"let g:gruvbox_material_enable_italic = 1
+"let g:gruvbox_material_disable_italic_comment = 1
+colorscheme gruvbox-material
+" let g:lightline.colorscheme = 'gruvbox_material'
+
 " Map { to typ both { }, align them en enter input mode inside.
 " :inoremap { <esc>o{<cr>}<esc>O
 
-set langmenu=en_US
-let $LANG = 'en_US'
+" Set clipboard for cut/copy/paste to Windows clipboard by default.
+set clipboard=unnamed
